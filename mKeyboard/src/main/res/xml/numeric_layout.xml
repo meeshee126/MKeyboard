@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="148px"
+    android:horizontalGap="13px"
+    android:verticalGap="14px"
+    android:keyHeight="80px">
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:horizontalGap="290px"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="-5"  android:keyIcon="@drawable/ic_backspace"  android:isRepeatable="true" android:keyWidth="84px" android:horizontalGap="216px"/>
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="4" android:horizontalGap="290px"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_arrow_right" android:keyWidth="132px"  android:horizontalGap="170px"/>
+    </Row>
+    <Row>
+        <Key android:codes="55" android:keyLabel="7" android:horizontalGap="290px"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+    </Row>
+    <Row>
+        <Key android:codes="-2" android:keyLabel="abc" android:keyWidth="84px" android:horizontalGap="6px"/>
+        <Key android:codes="48" android:keyLabel="0" android:keyWidth="470px" android:horizontalGap="200px"/>
+    </Row>
+
+</Keyboard>

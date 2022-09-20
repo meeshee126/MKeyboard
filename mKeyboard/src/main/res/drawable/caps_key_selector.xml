@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/mBrightBlue1" />
+            <corners android:radius="3dp" />
+            <size
+                android:width="84px"
+                android:height="80px" />
+        </shape>
+    </item>
+    <item
+        android:width="29px"
+        android:height="29px"
+        android:drawable="@drawable/caps_locked"
+        android:gravity="center" />
+</layer-list>
+
+
