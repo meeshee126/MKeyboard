@@ -10,13 +10,12 @@
         android:layout_height="302dp"
         android:background="@color/mBlack" />
 
-    <com.shgr.mkeyboard.keyboard.MKeyboardView
+    <com.shgr.mkeyboard.MKeyboardView
         android:id="@+id/keyboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@color/mBlack"
-        android:fontFamily="@font/muli"
         android:keyBackground="@drawable/key_background"
         android:keyTextColor="@color/mMainGray" />
 </RelativeLayout>
