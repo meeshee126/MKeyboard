@@ -7,6 +7,8 @@ import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.util.AttributeSet;
 import android.util.Log;
+
+import com.shgr.mkeyboard.R;import com.shgr.mkeyboard.keyboard.MKeyboard;
 import java.util.List;
 
 

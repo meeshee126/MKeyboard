@@ -1,4 +1,4 @@
-package com.shgr.mkeyboard
+package com.shgr.mkeyboard.keyboard
 
 import android.content.Context
 import android.inputmethodservice.InputMethodService
@@ -12,6 +12,9 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.core.widget.doOnTextChanged
 import androidx.lifecycle.MutableLiveData
+import com.shgr.mkeyboard.MKeyboardView
+import com.shgr.mkeyboard.R
+
 
 class MKeyboard() : InputMethodService(), KeyboardView.OnKeyboardActionListener {
 
