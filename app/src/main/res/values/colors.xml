@@ -7,4 +7,52 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="alpha0">#00FFFFFF</color>
+
+
+    <!--Blue-->
+    <color name="mBrightBlue1">#727A82</color>
+    <color name="mBrightBlue1Alpha30">#4D727A82</color>
+    <color name="mBrightBlue2">#36414B</color>
+    <color name="mBrightBlue3">#4D555E</color>
+    <color name="mBrightBlue4">#93979C</color>
+    <color name="mMainBlue">#2A3440</color>
+    <color name="mDarkBlue1">#222A33</color>
+    <color name="mDarkBlue2">#191F26</color>
+
+    <!--Yellow-->
+    <color name="mBrightYellow1">#FAE390</color>
+    <color name="mBrightYellow2">#F8D559</color>
+    <color name="mMainYellow">#F5C823</color>
+    <color name="mDarkYellow1">#CC9F10</color>
+    <color name="mDarkYellow2">#53523A</color>
+
+    <!--Green-->
+    <color name="mBrightGreen1">#7FCBAE</color>
+    <color name="mBrightGreen2">#47B98B</color>
+    <color name="mMainGreen">#10A669</color>
+    <color name="mDarkGreen1">#17895F</color>
+    <color name="mDarkGreen2">#33A668</color>
+    <color name="mDarkGreen3">#23504A</color>
+
+    <!--Gray-->
+    <color name="mBrightGray">#EDF0F2</color>
+    <color name="mMainGray">#D8D8D8</color>
+
+    <!--Black-->
+    <color name="mBlack">#191F26</color>
+
+    <!--Red-->
+    <color name="mBrightRed1">#DE8C88</color>
+    <color name="mBrightRed2">#D75A53</color>
+    <color name="mMainRed">#CF281E</color>
+    <color name="mDarkRed1">#8D2D2C</color>
+    <color name="mDarkRed2">#4B3239</color>
+
+    <!--misc-->
+    <color name="mKeyBackground">#4D555E</color>
+    <color name="colorSuccess">@color/mBrightGreen2</color>
+    <color name="colorError">@color/mBrightRed2</color>
+
+
 </resources>

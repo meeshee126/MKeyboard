@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "mKeyboard"
 include ':app'
-include ':mKeyboard'
