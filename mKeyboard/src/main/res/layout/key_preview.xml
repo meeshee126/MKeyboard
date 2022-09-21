@@ -6,7 +6,7 @@
     android:fontFamily="@font/muli"
     android:gravity="center"
 
-    android:textSize="30sp"
+    android:textSize="@dimen/_30sdp"
     android:textStyle="bold" />
 
 

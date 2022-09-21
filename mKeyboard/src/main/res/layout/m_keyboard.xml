@@ -5,8 +5,8 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="302dp"
-        android:background="@color/mMainYellow" />
+        android:layout_height="@dimen/_112sdp"
+        android:background="@color/mMainRed" />
 
     <com.shgr.mkeyboard.MKeyboardView
         android:id="@+id/keyboard"
