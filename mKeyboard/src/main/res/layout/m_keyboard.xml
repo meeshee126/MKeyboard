@@ -6,7 +6,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/_112sdp"
-        android:background="@color/mMainRed" />
+        android:background="@color/black" />
 
     <com.shgr.mkeyboard.MKeyboardView
         android:id="@+id/keyboard"
