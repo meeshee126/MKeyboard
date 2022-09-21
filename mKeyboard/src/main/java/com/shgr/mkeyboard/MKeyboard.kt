@@ -50,9 +50,9 @@ class MKeyboard() : InputMethodService(), KeyboardView.OnKeyboardActionListener 
         val edittext = currentView?.findFocus() as EditText?
 
         if (attribute?.inputType == InputType.TYPE_CLASS_NUMBER || attribute?.inputType == InputType.TYPE_CLASS_PHONE) {
-            kv.keyboard = Keyboard(this, R.xml.qwerty_layout)
-        } else {
             kv.keyboard = Keyboard(this, R.xml.numeric_layout)
+        } else {
+            kv.keyboard = Keyboard(this, R.xml.qwerty_layout)
 
             if (edittext?.text?.isEmpty() == true) {
                 enableCaps(true)
